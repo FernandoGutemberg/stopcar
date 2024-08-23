@@ -1,10 +1,19 @@
 import './App.css';
+import backgroundImage from './components/images/Oficina-de-carro.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <h1>STOP CAR</h1>
-      <p>Marque um horário com a gente!</p>
+    <div 
+      className="App" 
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
+      <div className="header">
+        <h1>STOP CAR</h1>
+      </div>
+      <div className="header">
+        <p>Marque um horário com a gente!</p>
+
+      </div>
       
       <form>
         <div className="form-group">

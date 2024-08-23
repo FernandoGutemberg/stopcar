@@ -6,10 +6,10 @@ uptime
 echo "O script está executando do diretório:"
 pwd
 echo "Iniciando serviço Express e Mongoose em background"
-cd ~/Documentos/projetos/stopcar/apiexpress
+cd ~/Documentos/projetos_reactjs/stopcar/apiexpress
 npm start .&
 echo "Aguardando 5 segundos para iniciar React"
 sleep 5
 echo "Iniciando serviço React"
-cd ~/Documentos/projetos/stopcar
+cd ~/Documentos/projetos_reactjs/stopcar
 npm start
