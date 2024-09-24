@@ -27,8 +27,8 @@ function App() {
         </div>
         
         <div className="form-group">
-          <label htmlFor="phone">Telefone</label>
-          <input type="tel" id="phone" name="phone" placeholder="Seu telefone" />
+          <label htmlFor="phone">Seu Telefone</label>
+          <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" />
         </div>
         
         <button type="submit">ENVIAR</button>
